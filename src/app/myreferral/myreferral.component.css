@@ -1,0 +1,27 @@
+.jumbotron {
+  margin-bottom: 0;
+}
+
+.jumbotron1 {
+  /* background-image: url('assets/images/cover-bg-1.jpg');
+  background-size: cover; */
+  background-color: rgb(165, 236, 185);
+}
+
+.jumbotron2 {
+  /* background-image: url('assets/images/cover-bg-1.jpg');
+  background-size: cover; */
+  background-color: rgb(241, 187, 114);
+}
+
+.jumbotron3 {
+  /* background-image: url('assets/images/cover-bg-1.jpg');
+  background-size: cover; */
+  background-color: rgb(197, 164, 244);
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron h2 {
+    font-size: 1.2em;
+  }
+}

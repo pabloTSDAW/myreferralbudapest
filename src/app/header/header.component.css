@@ -1,0 +1,38 @@
+#logo {
+  max-width: 50px;
+  padding-right: 5px;
+}
+
+.navbar span {
+  color: rgb(130, 228, 112);
+}
+
+.top-nav {
+  background-color: rgb(41, 41, 41);
+  min-height: 90px;
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+}
+
+.top-nav .navbar-nav li .nav-link {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+}
+
+.top-nav li a.nav-link:hover, .top-nav .nav-item.active a.nav-link {
+  color: rgb(130, 228, 112);
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+}
+
+.top-nav .navbar-brand {
+  font-size: 30px;
+  color: #fff;
+  font-family: sans-serif;
+}
