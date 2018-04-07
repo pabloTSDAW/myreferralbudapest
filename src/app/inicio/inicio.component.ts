@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+declare var jquery: any;
+declare var $: any;
 
 @Component({
   selector: 'app-inicio',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicioComponent implements OnInit {
 
-  constructor() { }
+  constructor(){
+  }
 
   ngOnInit() {
+    $('.cabecera').toggle();
+  }
+
+  ngOnDestroy() {
+    $('.cabecera').toggle();
   }
 
 }

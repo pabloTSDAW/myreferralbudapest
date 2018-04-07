@@ -5,19 +5,19 @@
 .jumbotron1 {
   /* background-image: url('assets/images/cover-bg-1.jpg');
   background-size: cover; */
-  background-color: rgb(165, 236, 185);
+  background-color: rgb(255, 255, 255);
 }
 
 .jumbotron2 {
   /* background-image: url('assets/images/cover-bg-1.jpg');
   background-size: cover; */
-  background-color: rgb(241, 187, 114);
+  background-color: #e9ecef;
 }
 
 .jumbotron3 {
   /* background-image: url('assets/images/cover-bg-1.jpg');
   background-size: cover; */
-  background-color: rgb(197, 164, 244);
+  background-color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 768px) {
