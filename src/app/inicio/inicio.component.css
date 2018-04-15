@@ -1,0 +1,8 @@
+.animated {
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+}
+
+.cover-container p {
+  animation-delay: 2s;
+}

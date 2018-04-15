@@ -646,3 +646,10 @@ li.nav-item .btn-white {
 }
 
 /*--------------------FONT AWESOME----------------------------*/
+.fa-undo-alt {
+  color: rgba(33, 37, 41, 0.9);
+}
+
+.fa-undo-alt:hover {
+  color: #59a0d7;
+}

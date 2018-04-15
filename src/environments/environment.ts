@@ -5,16 +5,5 @@
 
 export const environment = {
   production: false,
-
-  // Initialize Firebase
-  // var firebase = {
-  //   apiKey: "AIzaSyCHdNCKyi9PA8-mZHn6I9vsDDd8S-ppTWU",
-  //   authDomain: "myreferrallbudapest.firebaseapp.com",
-  //   databaseURL: "https://myreferrallbudapest.firebaseio.com",
-  //   projectId: "myreferrallbudapest",
-  //   storageBucket: "myreferrallbudapest.appspot.com",
-  //   messagingSenderId: "48077437543"
-  // }
-
+  serverSocket:"http://localhost:3000"
 };
-// firebase.initializeApp(config);
