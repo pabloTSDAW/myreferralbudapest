@@ -19,5 +19,6 @@ export class DataService {
     return this._http.get("/api/empresas")
       .map(result => this.result = result.json().data);
   }
+  
 
 }
