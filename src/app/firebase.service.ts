@@ -30,7 +30,7 @@ export class FirebaseService {
   //Cierre de sesión del usuario
   logout() {
     this.afAuth.auth.signOut().then(() => {
-      //hemos salido
+      console.log('Hemos cerrado la sesión');
     })
   }
 

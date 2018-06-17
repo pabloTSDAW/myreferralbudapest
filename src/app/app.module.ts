@@ -28,15 +28,9 @@ import { HeaderMainComponent } from './header-main/header-main.component';
 import { EmpresasComponent } from './empresas/empresas.component';
 import { PuestosComponent } from './puestos/puestos.component';
 import { AdminComponent } from './admin/admin.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
-export const firebaseConfig = {
-  apiKey: "AIzaSyC9vYx5oTASyjW7crrTApFR3LbCp3uAr6o",
-  authDomain: "myreferralbudapest-empresas.firebaseapp.com",
-  databaseURL: "https://myreferralbudapest-empresas.firebaseio.com",
-  projectId: "myreferralbudapest-empresas",
-  storageBucket: "myreferralbudapest-empresas.appspot.com",
-  messagingSenderId: "488243195200"
-};
+
 
 const routes: Routes = [
   { path: '', component: InicioComponent },
@@ -50,7 +44,8 @@ const routes: Routes = [
   { path: 'budapest/alojamiento', component: BudapestAlojamientoComponent },
   { path: 'myreferral', component: MyreferralComponent },
   { path: 'contact', component: ContactoComponent },
-  { path: 'admin', component: AdminComponent }
+  { path: 'admin', component: AdminComponent },
+  { path: 'dashboard', component: DashboardComponent }
 ]
 
 @NgModule({
@@ -70,7 +65,8 @@ const routes: Routes = [
     HeaderMainComponent,
     EmpresasComponent,
     PuestosComponent,
-    AdminComponent
+    AdminComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

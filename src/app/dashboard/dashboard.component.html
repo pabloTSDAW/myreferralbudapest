@@ -1,0 +1,56 @@
+<!-- <p *ngIf="logueado">
+  <button (click)="cerrarSesion()">Log Out</button>
+</p> -->
+<div class="container-fluid">
+  <div class="wrapper">
+    <!-- Sidebar Holder -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <h3>MyReferral</h3>
+        <h4>Dashboard</h4>
+      </div>
+      <ul class="list-unstyled components">
+        <li class="active">
+          <a href="#menu">Animación</a>
+        </li>
+        <li>
+          <a href="#menu">Ilustración</a>
+        </li>
+        <li>
+          <a href="#">Interacción</a>
+        </li>
+        <li>
+          <a href="#">Blog</a>
+        </li>
+        <li>
+          <a href="#">Acerca</a>
+        </li>
+        <li>
+          <a href="#">contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Page Content Holder -->
+    <div id="content">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="row" style="width: 100%;">
+            <div class="col-9 text-left">
+              <div class="navbar-header">
+                <button class="btn btn-outline-white" id="sidebarCollapse">Menú</button>
+              </div>
+            </div>
+            <div class="col-3 text-right">
+              <button class="btn btn-outline-white" (click)="cerrarSesion()">Log Out</button>
+            </div>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Page</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
