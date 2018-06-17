@@ -4,7 +4,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { environment } from '../environments/environment';
 import { DataService } from './data.service';
+import { FirebaseService } from './firebase.service';
 import { HttpModule } from '@angular/http';
+
+//Firebase
+import {AngularFireModule} from 'angularfire2';
+import {AngularFireDatabaseModule} from 'angularfire2/database-deprecated';
+import {AngularFireAuthModule} from 'angularfire2/auth';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -21,7 +27,16 @@ import { BudapestAlojamientoComponent } from './budapest-alojamiento/budapest-al
 import { HeaderMainComponent } from './header-main/header-main.component';
 import { EmpresasComponent } from './empresas/empresas.component';
 import { PuestosComponent } from './puestos/puestos.component';
+import { AdminComponent } from './admin/admin.component';
 
+export const firebaseConfig = {
+  apiKey: "AIzaSyC9vYx5oTASyjW7crrTApFR3LbCp3uAr6o",
+  authDomain: "myreferralbudapest-empresas.firebaseapp.com",
+  databaseURL: "https://myreferralbudapest-empresas.firebaseio.com",
+  projectId: "myreferralbudapest-empresas",
+  storageBucket: "myreferralbudapest-empresas.appspot.com",
+  messagingSenderId: "488243195200"
+};
 
 const routes: Routes = [
   { path: '', component: InicioComponent },
@@ -34,7 +49,8 @@ const routes: Routes = [
   { path: 'budapest/transporte', component: BudapestTransporteComponent },
   { path: 'budapest/alojamiento', component: BudapestAlojamientoComponent },
   { path: 'myreferral', component: MyreferralComponent },
-  { path: 'contact', component: ContactoComponent }
+  { path: 'contact', component: ContactoComponent },
+  { path: 'admin', component: AdminComponent }
 ]
 
 @NgModule({
@@ -53,15 +69,19 @@ const routes: Routes = [
     BudapestAlojamientoComponent,
     HeaderMainComponent,
     EmpresasComponent,
-    PuestosComponent
+    PuestosComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(routes),
     FormsModule,
-    HttpModule
+    HttpModule,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
+    AngularFireAuthModule
   ],
-  providers: [DataService],
+  providers: [DataService, FirebaseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

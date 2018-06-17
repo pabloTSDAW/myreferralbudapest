@@ -10,6 +10,7 @@ declare var $: any;
 export class InicioComponent implements OnInit {
 
   constructor(){
+    
   }
 
   ngOnInit() {
