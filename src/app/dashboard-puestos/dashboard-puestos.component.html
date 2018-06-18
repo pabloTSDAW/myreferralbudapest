@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container animated fadeIn">
   <div class="row">
     <div class="col-12 text-center p-3">
       <h3>Puestos disponibles</h3>
@@ -7,18 +7,21 @@
   <div class="row">
     <div class="col-12">
       <div class="table-responsive">
-        <table id="tablaEmpresas" class="table table-dark thead-inverse table-bordered">
+        <table id="tablaPuestos" class="table table-dark thead-inverse table-bordered">
+          <thead>
           <tr class="">
-            <th>Nombre</th>
-            <th>Empresa</th>
-            <th>Lugar</th>
-            <th>Salario</th>
-            <th>Fecha</th>
-            <th>Estudios mínimos</th>
-            <th>Experiencia mínima</th>
-            <!-- <th>Descripción</th> -->
-            <th>Categoría</th>
+            <td>Nombre</td>
+            <td>Empresa</td>
+            <td>Lugar</td>
+            <td>Salario</td>
+            <td>Fecha</td>
+            <td>Estudios mínimos</td>
+            <td>Experiencia mínima</td>
+            <!-- <td>Descripción</td> -->
+            <td>Categoría</td>
           </tr>
+          </thead>
+          <tbody>
           <tr *ngFor="let puesto of puestos">
             <td class="align-middle">{{puesto.nombre}}</td>
             <td class="align-middle">{{puesto.empresa}}</td>
@@ -30,6 +33,7 @@
             <!-- <td class="align-middle">{{puesto.descripcion}}</td> -->
             <td class="align-middle">{{puesto.categoria}}</td>
           </tr>
+        </tbody>
         </table>
       </div>
     </div>
@@ -64,9 +68,9 @@
           <div class="md-form mb-5">
             <input type="text" [(ngModel)]="salario" placeholder="Salario" required>
           </div>
-          <div class="md-form mb-5">
+          <!-- <div class="md-form mb-5">
             <input type="text" [(ngModel)]="fecha" placeholder="Fecha" required>
-          </div>
+          </div> -->
           <div class="md-form mb-5">
             <input type="text" [(ngModel)]="estudios_minimos" placeholder="Estudios mínimos" required>
           </div>

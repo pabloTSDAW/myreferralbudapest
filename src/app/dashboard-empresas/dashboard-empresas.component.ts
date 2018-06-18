@@ -19,6 +19,9 @@ export class DashboardEmpresasComponent implements OnInit {
 
   ngOnInit() {
     this.firebase.getEmpresas().subscribe(data => this.empresas = data);
+    setTimeout(function(){
+      $('#tablaEmpresas').DataTable()
+    }, 1000);
   }
 
   guardarEmpresa(){

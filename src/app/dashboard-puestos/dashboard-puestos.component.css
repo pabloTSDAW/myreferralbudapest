@@ -9,3 +9,8 @@ input, textarea {
   overflow-x: auto;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
+
+.container {
+  animation-delay: 1s;
+  animation-duration: 2s;
+}

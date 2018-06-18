@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container animated fadeIn">
   <div class="row">
     <div class="col-12 text-center p-3">
       <h3>Empresas</h3>
@@ -6,18 +6,22 @@
   </div>
   <div class="row">
     <div class="col-12">
-      <div class="table-responsive">
+      <div class="table-responsive ">
         <table id="tablaEmpresas" class="table table-dark thead-inverse table-bordered">
+          <thead>
           <tr class="">
-            <th>Nombre</th>
-            <th>Sector</th>
-            <th>Descripción</th>
+            <td>Nombre</td>
+            <td>Sector</td>
+            <td>Descripción</td>
           </tr>
+        </thead>
+        <tbody>
           <tr *ngFor="let empresa of empresas">
             <td class="align-middle">{{empresa.nombre}}</td>
             <td class="align-middle">{{empresa.sector}}</td>
             <td class="align-middle">{{empresa.descripcion}}</td>
           </tr>
+        </tbody>
         </table>
       </div>
     </div>
