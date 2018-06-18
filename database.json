@@ -13,7 +13,8 @@
   },
 
   "puestos": {
-    "1": {
+    "1529322074519": {
+      "id": "1529322074519",
       "nombre": "Programador Informático",
       "empresa": "Vodafone",
       "lugar": "La Zubia, Granada",
@@ -24,7 +25,8 @@
       "descripcion": "Programador informático con experiencia en java, HTML, PHP, C# y .NET. Se valorará experiencia en programación Android o multiplataforma como Xamari",
       "categoria": "Informática y telecomunicaciones"
     },
-    "2": {
+    "1529322074600": {
+      "id": "1529322074600",
       "nombre": "Comercial Junior",
       "empresa": "IBM",
       "lugar": "Budapest, Hungría",

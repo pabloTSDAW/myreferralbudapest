@@ -28,6 +28,20 @@ export class FirebaseService {
     return this.afAuth.authState;
   }
 
+  //Obtiene los datos del usuario actual
+  getUser() {
+    return this.afAuth.auth.currentUser;
+  }
+
+  //Actualiza la contraseña del usuario actual
+  changePassword(password) {
+    this.afAuth.auth.currentUser.updatePassword(password).then(function(){
+      //
+    }).catch(function(error){
+      console.log(error);
+    })
+  }
+
   //Cierre de sesión del usuario
   logout() {
     this.afAuth.auth.signOut().then(() => {
@@ -45,6 +59,11 @@ export class FirebaseService {
     return this.afDB.database.ref('/empresas').child(empresa.nombre).set(empresa);
   }
 
+  //Elimina una empresa de la base de datos
+  removeEmpresa(empresa) {
+    return this.afDB.database.ref('/empresas').child(empresa.nombre).remove();
+  }
+
   //Obtiene los puestos en la base de datos
   getPuestos() {
     return this.afDB.list('/puestos').valueChanges();
@@ -52,8 +71,12 @@ export class FirebaseService {
 
   //Almacena un nuevo puesto en la base de datos
   newPuesto(puesto) {
-    puesto.id = Date.now();
     return this.afDB.database.ref('/puestos').child(puesto.id).set(puesto);
+  }
+
+  //Elimina una puesto de la base de datos
+  removePuesto(puesto) {
+    return this.afDB.database.ref('/puestos').child(puesto.id).remove();
   }
 
 }

@@ -13,6 +13,7 @@
             <td>Nombre</td>
             <td>Sector</td>
             <td>Descripción</td>
+            <td>&nbsp;</td>
           </tr>
         </thead>
         <tbody>
@@ -20,6 +21,7 @@
             <td class="align-middle">{{empresa.nombre}}</td>
             <td class="align-middle">{{empresa.sector}}</td>
             <td class="align-middle">{{empresa.descripcion}}</td>
+            <td class="align-middle"><a href="" class="btn btn-danger" data-toggle="modal" data-target="#eliminarEmpresa" (click)="obtenerEmpresa(empresa)">Eliminar</a></td>
           </tr>
         </tbody>
         </table>
@@ -31,6 +33,7 @@
       <a href="" class="btn btn-primary" data-toggle="modal" data-target="#modalEmpresa">Añadir</a>
     </div>
   </div>
+</div>
 
   <!-- Modal nueva empresa -->
 
@@ -64,4 +67,25 @@
     </div>
   </div>
 
-</div>
+
+  <!-- Modal confirmación borrado -->
+
+  <div class="modal fade" id="eliminarEmpresa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h4 class="modal-title w-100 font-weight-bold">Eliminar</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+        </div>
+        <div class="modal-body text-center">
+          <p>¿Está seguro de que desea elimiar este registro?</p>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button class="btn btn-primary" (click)="eliminarDato()" data-dismiss="modal" aria-label="Close">Aceptar</button>
+          <button class="btn btn-danger" data-dismiss="modal" aria-label="Close">Cancelar</button>
+        </div>
+      </div>
+    </div>
+  </div>

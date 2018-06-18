@@ -1,0 +1,9 @@
+.container {
+  animation-delay: 1s;
+  animation-duration: 2s;
+}
+
+input {
+  width: 80%;
+  padding: 1%;
+}

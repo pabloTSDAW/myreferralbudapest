@@ -6,16 +6,16 @@
         <h4>Dashboard</h4>
       </div>
       <ul class="list-unstyled components">
-        <li class="active">
+        <li [ngClass]="{active: pagina == 'inicio'}">
           <a (click)="changePage('inicio')">Inicio</a>
         </li>
-        <li>
+        <li [ngClass]="{active: pagina == 'empresas'}">
           <a (click)="changePage('empresas')">Empresas</a>
         </li>
-        <li>
+        <li [ngClass]="{active: pagina == 'puestos'}">
           <a (click)="changePage('puestos')">Vacantes</a>
         </li>
-        <li>
+        <li [ngClass]="{active: pagina == 'usuarios'}">
           <a (click)="changePage('usuarios')">Usuarios</a>
         </li>
         <li>
@@ -76,7 +76,7 @@
       <app-dashboard-user *ngIf="pagina == 'usuarios'"></app-dashboard-user>
       <app-dashboard-empresas *ngIf="pagina == 'empresas'"></app-dashboard-empresas>
       <app-dashboard-puestos *ngIf="pagina == 'puestos'"></app-dashboard-puestos>
-      
+
       <!-- End Dashboard Body -->
     </div>
   </div>
