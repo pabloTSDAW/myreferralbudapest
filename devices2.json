@@ -1,0 +1,310 @@
+{
+  "devices": {
+    "icon": "wifi",
+    "inputs": {
+      "digitalInputs": {
+        "1": {
+          "component": "Digital",
+          "config": "Configuración Digital Input 1",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Input 1",
+          "icon": "wifi",
+          "n": 1,
+          "state": true,
+          "title": "Digital input 1",
+          "select": false
+        },
+        "2": {
+          "component": "Digital",
+          "config": "Configuración Digital Input 2",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Histórico Digital Input 2",
+          "icon": "wifi",
+          "n": 2,
+          "state": true,
+          "title": "Digital Input 2",
+          "select": false
+        },
+        "3": {
+          "component": "Digital",
+          "config": "Configuración Digital Input 3",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Histórico Digital Input 3",
+          "icon": "wifi",
+          "n": 3,
+          "state": true,
+          "title": "Digital Input 3",
+          "select": false
+        },
+        "4": {
+          "component": "Digital",
+          "config": "Configuración Digital Input 4",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Histórico Digital Input 4",
+          "icon": "wifi",
+          "n": 4,
+          "state": true,
+          "title": "Digital Input 4",
+          "select": false
+        },
+        "5": {
+          "component": "Digital",
+          "config": "Configuración Digital Input 5",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Histórico Digital Input 5",
+          "icon": "wifi",
+          "n": 5,
+          "state": true,
+          "title": "Digital Input 5",
+          "select": false
+        },
+        "6": {
+          "component": "Digital",
+          "config": "Configuración Digital Input 6",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Histórico Digital Input 6",
+          "icon": "wifi",
+          "n": 6,
+          "state": true,
+          "title": "Digital Input 6",
+          "select": false
+        }
+      },
+      "analogicInputs": {
+        "1": {
+          "title": "Analogic Input 1",
+          "value": 61,
+          "icon": "wifi",
+          "component": "Analogic",
+          "n": 1,
+          "estateHistorico": false,
+          "historico": "Historico Analogic Input 1",
+          "estateConfig": false,
+          "config": "Configuracion Analogic Input 1",
+          "select": false
+        },
+        "2": {
+          "title": "Analogic Input 2",
+          "value": 20,
+          "icon": "wifi",
+          "component": "Analogic",
+          "n": 2,
+          "estateHistorico": false,
+          "historico": "Historico Analogic Input 2",
+          "estateConfig": false,
+          "config": "Configuracion Analogic Input 2",
+          "select": false
+        },
+        "3": {
+          "title": "Analogic Input 3",
+          "value": 85,
+          "icon": "wifi",
+          "component": "Analogic",
+          "n": 3,
+          "estateHistorico": false,
+          "historico": "Historico Analogic Input 3",
+          "estateConfig": false,
+          "config": "Configuracion Analogic Input 3",
+          "select": false
+        },
+        "4": {
+          "title": "Analogic Input 4",
+          "value": 12,
+          "icon": "wifi",
+          "component": "Analogic",
+          "n": 4,
+          "estateHistorico": false,
+          "historico": "Historico Analogic Input 4",
+          "estateConfig": false,
+          "config": "Configuracion Analogic Input 4",
+          "select": false
+        }
+      }
+    },
+    "outputs": {
+      "digitalOutputs": {
+        "1": {
+          "component": "Digital",
+          "config": "Configuración Digital Output 1",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Output 1",
+          "icon": "wifi",
+          "n": 1,
+          "state": true,
+          "title": "Digital Output 1",
+          "program": "Program Digital Output 1",
+          "estateProgram": false,
+          "select": false
+        },
+        "2": {
+          "component": "Digital",
+          "config": "Configuración Digital Output 2",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Output 2",
+          "icon": "wifi",
+          "n": 2,
+          "state": true,
+          "title": "Digital Output 2",
+          "program": "Program Digital Output 2",
+          "estateProgram": false,
+          "select": false
+        },
+        "3": {
+          "component": "Digital",
+          "config": "Configuración Digital Output 3",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Output 3",
+          "icon": "wifi",
+          "n": 3,
+          "state": true,
+          "title": "Digital Output 3",
+          "program": "Program Digital Output 3",
+          "estateProgram": false,
+          "select": false
+        },
+        "4": {
+          "component": "Digital",
+          "config": "Configuración Digital Output 4",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Output 4",
+          "icon": "wifi",
+          "n": 4,
+          "state": true,
+          "title": "Digital Output 4",
+          "program": "Program Digital Output 4",
+          "estateProgram": false,
+          "select": false
+        },
+        "5": {
+          "component": "Digital",
+          "config": "Configuración Digital Output 5",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Output 5",
+          "icon": "wifi",
+          "n": 5,
+          "state": true,
+          "title": "Digital Output 5",
+          "program": "Program Digital Output 5",
+          "estateProgram": false,
+          "select": false
+        },
+        "6": {
+          "component": "Digital",
+          "config": "Configuración Digital Output 6",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Output 6",
+          "icon": "wifi",
+          "n": 6,
+          "state": true,
+          "title": "Digital Output 6",
+          "program": "Program Digital Output 6",
+          "estateProgram": false,
+          "select": false
+        },
+        "7": {
+          "component": "Digital",
+          "config": "Configuración Digital Output 7",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Output 7",
+          "icon": "wifi",
+          "n": 7,
+          "state": true,
+          "title": "Digital Output 7",
+          "program": "Program Digital Output 7",
+          "estateProgram": false,
+          "select": false
+        },
+        "8": {
+          "component": "Digital",
+          "config": "Configuración Digital Output 8",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Output 8",
+          "icon": "wifi",
+          "n": 8,
+          "state": true,
+          "title": "Digital Output 8",
+          "program": "Program Digital Output 8",
+          "estateProgram": false,
+          "select": false
+        },
+        "9": {
+          "component": "Digital",
+          "config": "Configuración Digital Output 9",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Output 9",
+          "icon": "wifi",
+          "n": 9,
+          "state": true,
+          "title": "Digital Output 9",
+          "program": "Program Digital Output 9",
+          "estateProgram": false,
+          "select": false
+        },
+        "10": {
+          "component": "Digital",
+          "config": "Configuración Digital Output 10",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Digital Output 10",
+          "icon": "wifi",
+          "n": 10,
+          "state": true,
+          "title": "Digital Output 10",
+          "program": "Program Digital Output 10",
+          "estateProgram": false,
+          "select": false
+        }
+      },
+      "analogicOutputs": {
+        "1": {
+          "component": "Digital",
+          "config": "Configuración Analogic Output 1",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Analogic Output 1",
+          "icon": "wifi",
+          "n": 1,
+          "state": true,
+          "title": "Analogic Output 1",
+          "program": "Program Analogic Output 1",
+          "estateProgram": false,
+          "value": 0,
+          "select": false
+        },
+        "2": {
+          "component": "Analogic",
+          "config": "Configuración Analogic Output 2",
+          "estateConfig": false,
+          "estateHistorico": false,
+          "historico": "Historico Analogic Output 2",
+          "icon": "wifi",
+          "n": 2,
+          "state": true,
+          "title": "Analogic Output 2",
+          "program": "Program Analogic Output 2",
+          "estateProgram": false,
+          "value": 0,
+          "select": false
+        }
+      }
+    },
+    "note": "#1",
+    "state": true,
+    "title": "Device 1"
+  }
+}

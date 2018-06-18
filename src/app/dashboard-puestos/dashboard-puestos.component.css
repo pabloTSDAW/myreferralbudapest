@@ -1,0 +1,11 @@
+input, textarea {
+  width: 80%;
+  padding: 1%;
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}

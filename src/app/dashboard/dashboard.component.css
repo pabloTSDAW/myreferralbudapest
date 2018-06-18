@@ -34,6 +34,10 @@ a, a:hover, a:focus {
   margin: 40px 0;
 }
 
+#content {
+  background: rgb(228, 243, 246);
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -73,6 +77,7 @@ a, a:hover, a:focus {
   padding: 10px;
   font-size: 1.1em;
   display: block;
+  cursor: pointer;
 }
 
 #sidebar ul li a:hover {
@@ -145,6 +150,29 @@ a.article, a.article:hover {
 
 #content.active {
   width: 100%;
+}
+
+#content .recuadro {
+  padding: 10% 5% 5%;
+  vertical-align: center;
+  width: 80%;
+  background: rgba(33, 37, 41, 0.86);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#content .recuadro p {
+  font-size: bold;
+}
+
+#content .recuadro:hover {
+  background-color: white;
+  border: 5px solid rgba(33, 37, 41, 0.86);
+}
+
+#content .recuadro:hover p, #content .recuadro:hover svg {
+  color: rgba(33, 37, 41, 0.86);
 }
 
 /* ---------------------------------------------------

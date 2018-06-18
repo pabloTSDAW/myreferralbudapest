@@ -9,7 +9,7 @@ import { HttpModule } from '@angular/http';
 
 //Firebase
 import {AngularFireModule} from 'angularfire2';
-import {AngularFireDatabaseModule} from 'angularfire2/database-deprecated';
+import {AngularFireDatabaseModule} from 'angularfire2/database';
 import {AngularFireAuthModule} from 'angularfire2/auth';
 
 import { AppComponent } from './app.component';
@@ -29,6 +29,9 @@ import { EmpresasComponent } from './empresas/empresas.component';
 import { PuestosComponent } from './puestos/puestos.component';
 import { AdminComponent } from './admin/admin.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { DashboardUserComponent } from './dashboard-user/dashboard-user.component';
+import { DashboardEmpresasComponent } from './dashboard-empresas/dashboard-empresas.component';
+import { DashboardPuestosComponent } from './dashboard-puestos/dashboard-puestos.component';
 
 
 
@@ -66,7 +69,10 @@ const routes: Routes = [
     EmpresasComponent,
     PuestosComponent,
     AdminComponent,
-    DashboardComponent
+    DashboardComponent,
+    DashboardUserComponent,
+    DashboardEmpresasComponent,
+    DashboardPuestosComponent
   ],
   imports: [
     BrowserModule,

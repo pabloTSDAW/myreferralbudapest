@@ -12,11 +12,13 @@ declare var $: any;
 export class DashboardComponent implements OnInit {
 
   logueado = false;
+  pagina = 'inicio';
 
   constructor(public auth: FirebaseService, private router: Router) {
 
   }
 
+  //Desactiva la cabecera por defecto
   ngOnInit() {
     $('.cabecera').toggle();
     $('.footer').toggle();
@@ -31,13 +33,19 @@ export class DashboardComponent implements OnInit {
     });
   }
 
+  //Activa la caebecera por defecto
   ngOnDestroy() {
     $('.cabecera').toggle();
     $('.footer').toggle();
   }
 
+  //Termina la sesión actual
   cerrarSesion() {
     this.auth.logout();
+  }
+
+  changePage(elem){
+    this.pagina = elem;
   }
 
 }

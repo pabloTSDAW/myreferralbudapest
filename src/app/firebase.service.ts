@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from "angularfire2/auth";
+import { AngularFireDatabase, AngularFireList } from 'angularfire2/database';
 import * as firebase from 'firebase/app';
 
 @Injectable()
 export class FirebaseService {
 
-  constructor(private afAuth: AngularFireAuth) {
+  constructor(private afAuth: AngularFireAuth, public afDB: AngularFireDatabase) {
   }
 
   //Registro de usuario
@@ -32,6 +33,27 @@ export class FirebaseService {
     this.afAuth.auth.signOut().then(() => {
       console.log('Hemos cerrado la sesión');
     })
+  }
+
+  //Obtiene las empresas de la base de datos
+  getEmpresas() {
+    return this.afDB.list('/empresas').valueChanges();
+  }
+
+  //Almacena una nueva empresa en la base de datos
+  newEmpresa(empresa) {
+    return this.afDB.database.ref('/empresas').child(empresa.nombre).set(empresa);
+  }
+
+  //Obtiene los puestos en la base de datos
+  getPuestos() {
+    return this.afDB.list('/puestos').valueChanges();
+  }
+
+  //Almacena un nuevo puesto en la base de datos
+  newPuesto(puesto) {
+    puesto.id = Date.now();
+    return this.afDB.database.ref('/puestos').child(puesto.id).set(puesto);
   }
 
 }

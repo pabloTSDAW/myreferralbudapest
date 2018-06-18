@@ -1,9 +1,5 @@
-<!-- <p *ngIf="logueado">
-  <button (click)="cerrarSesion()">Log Out</button>
-</p> -->
 <div class="container-fluid">
   <div class="wrapper">
-    <!-- Sidebar Holder -->
     <nav id="sidebar">
       <div class="sidebar-header">
         <h3>MyReferral</h3>
@@ -11,26 +7,22 @@
       </div>
       <ul class="list-unstyled components">
         <li class="active">
-          <a href="#menu">Animación</a>
+          <a (click)="changePage('inicio')">Inicio</a>
         </li>
         <li>
-          <a href="#menu">Ilustración</a>
+          <a (click)="changePage('empresas')">Empresas</a>
         </li>
         <li>
-          <a href="#">Interacción</a>
+          <a (click)="changePage('puestos')">Vacantes</a>
         </li>
         <li>
-          <a href="#">Blog</a>
+          <a (click)="changePage('usuarios')">Usuarios</a>
         </li>
         <li>
-          <a href="#">Acerca</a>
-        </li>
-        <li>
-          <a href="#">contacto</a>
+          <a [routerLink]="['/']">Volver al Home</a>
         </li>
       </ul>
     </nav>
-    <!-- Page Content Holder -->
     <div id="content">
       <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -51,6 +43,41 @@
           </div>
         </div>
       </nav>
+
+      <!-- Dashboard body -->
+
+      <div class="container" *ngIf="pagina == 'inicio'">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Panel de administración</h2>
+          </div>
+        </div>
+        <div class="row text-center p-5">
+          <div class="col-12 col-md-4">
+            <div class="recuadro" (click)="changePage('empresas')">
+              <i class="fas fa-globe fa-4x"></i>
+              <p>Empresas</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="recuadro" (click)="changePage('puestos')">
+              <i class="far fa-file-alt fa-4x"></i>
+              <p>Vacantes</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="recuadro" (click)="changePage('usuarios')">
+              <i class="fas fa-users fa-4x"></i>
+              <p>Usuarios</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <app-dashboard-user *ngIf="pagina == 'usuarios'"></app-dashboard-user>
+      <app-dashboard-empresas *ngIf="pagina == 'empresas'"></app-dashboard-empresas>
+      <app-dashboard-puestos *ngIf="pagina == 'puestos'"></app-dashboard-puestos>
+      
+      <!-- End Dashboard Body -->
     </div>
   </div>
 </div>

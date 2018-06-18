@@ -1,0 +1,90 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center p-3">
+      <h3>Puestos disponibles</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <div class="table-responsive">
+        <table id="tablaEmpresas" class="table table-dark thead-inverse table-bordered">
+          <tr class="">
+            <th>Nombre</th>
+            <th>Empresa</th>
+            <th>Lugar</th>
+            <th>Salario</th>
+            <th>Fecha</th>
+            <th>Estudios mínimos</th>
+            <th>Experiencia mínima</th>
+            <!-- <th>Descripción</th> -->
+            <th>Categoría</th>
+          </tr>
+          <tr *ngFor="let puesto of puestos">
+            <td class="align-middle">{{puesto.nombre}}</td>
+            <td class="align-middle">{{puesto.empresa}}</td>
+            <td class="align-middle">{{puesto.lugar}}</td>
+            <td class="align-middle">{{puesto.salario}}</td>
+            <td class="align-middle">{{puesto.fecha}}</td>
+            <td class="align-middle">{{puesto.estudios_minimos}}</td>
+            <td class="align-middle">{{puesto.experiencia_minima}}</td>
+            <!-- <td class="align-middle">{{puesto.descripcion}}</td> -->
+            <td class="align-middle">{{puesto.categoria}}</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 text-center p-3">
+      <a href="" class="btn btn-primary" data-toggle="modal" data-target="#modalEmpresa">Añadir</a>
+    </div>
+  </div>
+
+  <!-- Modal nueva empresa -->
+
+  <div class="modal fade" id="modalEmpresa" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h4 class="modal-title w-100 font-weight-bold">Añadir puesto</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+        </div>
+        <div class="modal-body text-center">
+          <div class="md-form mb-5">
+            <input type="text" [(ngModel)]="nombre" placeholder="Título del puesto" required>
+          </div>
+          <div class="md-form mb-5">
+            <input type="text" [(ngModel)]="empresa" placeholder="Empresa" required>
+          </div>
+          <div class="md-form mb-5">
+            <input type="text" [(ngModel)]="lugar" placeholder="Lugar" required>
+          </div>
+          <div class="md-form mb-5">
+            <input type="text" [(ngModel)]="salario" placeholder="Salario" required>
+          </div>
+          <div class="md-form mb-5">
+            <input type="text" [(ngModel)]="fecha" placeholder="Fecha" required>
+          </div>
+          <div class="md-form mb-5">
+            <input type="text" [(ngModel)]="estudios_minimos" placeholder="Estudios mínimos" required>
+          </div>
+          <div class="md-form mb-5">
+            <input type="text" [(ngModel)]="experiencia_minima" placeholder="Experiencia mínima" required>
+          </div>
+          <div class="md-form mb-5">
+            <input type="text" [(ngModel)]="categoria" placeholder="Categoría" required>
+          </div>
+          <div class="md-form mb-5">
+            <textarea [(ngModel)]="descripcion" rows="6" placeholder="Descripción" required></textarea>
+          </div>
+        </div>
+        <div class="modal-footer d-flex justify-content-center">
+          <button class="btn btn-primary" (click)="guardarPuesto()" data-dismiss="modal" aria-label="Close">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
