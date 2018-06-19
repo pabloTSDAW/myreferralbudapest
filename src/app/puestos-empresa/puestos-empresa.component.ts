@@ -9,6 +9,7 @@ import { FirebaseService } from '../firebase.service';
 export class PuestosEmpresaComponent implements OnInit {
 
   empresaNombre;
+  empresa;
   puestos;
 
   constructor(private firebase: FirebaseService) { }
@@ -20,13 +21,19 @@ export class PuestosEmpresaComponent implements OnInit {
       this.empresaNombre = data.nombre;
     });
     this.firebase.getPuestos().subscribe(data => {
+      this.empresa = data;
       this.puestos = [];
-      for(let puesto of data){
-        if(puesto.empresa == this.empresaNombre){
+      for (let puesto of this.empresa) {
+        if (puesto.empresa == this.empresaNombre) {
           this.puestos.push(puesto);
         };
       };
     });
+  }
+
+  //Elige una oferta y la pasa como parámetro a la vista individual
+  seleccionarOferta(elem){
+    this.firebase.setOferta(elem);
   }
 
 }

@@ -5,3 +5,9 @@ img {
 img:hover {
   opacity: 1;
 }
+
+@media (max-width: 1025px) {
+  img {
+    opacity: 1;
+  }
+}

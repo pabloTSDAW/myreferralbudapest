@@ -29,7 +29,7 @@ h3 {
 
 h4 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -652,4 +652,19 @@ li.nav-item .btn-white {
 
 .fa-undo-alt:hover {
   color: #59a0d7;
+}
+
+
+/*----------------------- ARREGLOS ------------------------------*/
+
+@media (max-width: 768px){
+  h2 {
+    font-size: 2.2em;
+  }
+  h3 {
+    font-size: 1.8em;
+  }
+  h4 {
+    font-size: 1.3em;
+  }
 }

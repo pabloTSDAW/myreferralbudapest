@@ -1,0 +1,26 @@
+.container {
+  min-height: 550px;
+  padding: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+
+svg {
+  color: #59a0d7;
+}
+
+p, i {
+  font-size: 1em;
+}
+
+@media (max-width: 768px) h3 {
+  h3 {
+    font-size: 1.8em !important;
+  }
+  .row {
+    margin-bottom: 10px;
+  }
+}

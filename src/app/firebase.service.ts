@@ -9,11 +9,20 @@ import * as firebase from 'firebase/app';
 @Injectable()
 export class FirebaseService {
 
-  private empresa = new BehaviorSubject<string>();
+  private empresa = new BehaviorSubject<any>(0);
   public empresa$ = this.empresa.asObservable();
 
-  setEmpresa(value) {
+  private oferta = new BehaviorSubject<any>(0);
+  public oferta$ = this.oferta.asObservable();
+
+  //Cambia el valor del observable empresa
+  setEmpresa(value):void {
     this.empresa.next(value);
+  }
+
+  //Cambia el valor del observable oferta
+  setOferta(value):void {
+    this.oferta.next(value);
   }
 
   constructor(private afAuth: AngularFireAuth, public afDB: AngularFireDatabase) {

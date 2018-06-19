@@ -34,6 +34,7 @@ import { DashboardEmpresasComponent } from './dashboard-empresas/dashboard-empre
 import { DashboardPuestosComponent } from './dashboard-puestos/dashboard-puestos.component';
 import { EmpresaComponent } from './empresa/empresa.component';
 import { PuestosEmpresaComponent } from './puestos-empresa/puestos-empresa.component';
+import { OfertaComponent } from './oferta/oferta.component';
 
 
 
@@ -52,7 +53,8 @@ const routes: Routes = [
   { path: 'admin', component: AdminComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'empresa', component: EmpresaComponent },
-  { path: 'puestos-empresa', component: PuestosEmpresaComponent }
+  { path: 'puestos-empresa', component: PuestosEmpresaComponent },
+  { path: 'oferta', component: OfertaComponent }
 ]
 
 @NgModule({
@@ -78,7 +80,8 @@ const routes: Routes = [
     DashboardEmpresasComponent,
     DashboardPuestosComponent,
     EmpresaComponent,
-    PuestosEmpresaComponent
+    PuestosEmpresaComponent,
+    OfertaComponent
   ],
   imports: [
     BrowserModule,
