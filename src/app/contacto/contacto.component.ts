@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-contacto',
@@ -7,13 +6,9 @@ import { DataService } from '../data.service';
   styleUrls: ['./contacto.component.css']
 })
 export class ContactoComponent implements OnInit {
-  users: Array<any>;
 
-  constructor(private _dataService: DataService) { }
+  constructor() { }
 
   ngOnInit() {
-    this._dataService.getUsers().subscribe(res => this.users = res);
-    console.log(this.users);
   }
-
 }

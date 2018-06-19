@@ -1,5 +1,10 @@
 .container-fluid {
-  background-color: #2b2d34;
+  background-color: rgba(33, 37, 41, 0.95);
+  color: rgba(255, 255, 255, 0.90);
+}
+
+.text-muted {
+  color: rgba(255, 255, 255, 0.90);
 }
 
 .listaFooter li a:hover {

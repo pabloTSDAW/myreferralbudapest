@@ -7,6 +7,11 @@ input, textarea {
   display: block; width: 100%; overflow-x: auto; -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
+table.dataTable thead tr {
+  background-color: rgba(33, 37, 41, 0.86);
+  color: white;
+}
+
 .container {
   animation-delay: 1s;
   animation-duration: 2s;

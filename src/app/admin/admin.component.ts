@@ -16,6 +16,9 @@ export class AdminComponent implements OnInit {
   constructor(public auth: FirebaseService, private router: Router) { }
 
   ngOnInit() {
+    this.auth.Session.subscribe(session => {
+      if (session) this.router.navigate(['/dashboard']);
+    });
     $('.cabecera').toggle();
     $('.footer').toggle();
   }

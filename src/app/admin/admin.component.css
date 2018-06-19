@@ -104,6 +104,14 @@ h1, h3, i {
   color: white;
 }
 
+.volver {
+  color: white;
+}
+
+.volver:hover{
+  text-decoration: none;
+}
+
 @media (max-width: 1200px) {
   .login-form {
     width: 50%;
