@@ -1,10 +1,20 @@
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+import { Subject } from 'rxjs/Subject';
+import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { AngularFireAuth } from "angularfire2/auth";
 import { AngularFireDatabase, AngularFireList } from 'angularfire2/database';
 import * as firebase from 'firebase/app';
 
 @Injectable()
 export class FirebaseService {
+
+  private empresa = new BehaviorSubject<string>();
+  public empresa$ = this.empresa.asObservable();
+
+  setEmpresa(value) {
+    this.empresa.next(value);
+  }
 
   constructor(private afAuth: AngularFireAuth, public afDB: AngularFireDatabase) {
   }

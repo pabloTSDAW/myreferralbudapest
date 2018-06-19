@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-4 puestos" *ngFor="let puesto of puestos">
+      <div>
+        <div class="card text-center">
+          <div class="card-body">
+            <h5 class="card-title">{{puesto.nombre}}</h5>
+            <p class="card-text">{{puesto.categoria}}</p>
+            <p><i class="fas fa-map-marker-alt"></i> {{puesto.lugar}}</p>
+            <a href="#" class="btn btn-primary">Ver oferta</a>
+          </div>
+          <div class="card-footer text-muted">
+            <p><i class="far fa-clock"></i> {{puesto.fecha}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

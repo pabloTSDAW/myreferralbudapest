@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from '../firebase.service';
-declare var jquery: any;
-declare var $: any;
 
 @Component({
   selector: 'app-empresas',
@@ -16,5 +14,9 @@ export class EmpresasComponent implements OnInit {
 
     ngOnInit(){
       this.firebase.getEmpresas().subscribe(data => this.empresas = data);
+    }
+
+    muestra(elem){
+      this.firebase.setEmpresa(elem);
     }
   }

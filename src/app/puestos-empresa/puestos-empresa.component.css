@@ -1,0 +1,20 @@
+.container{
+  min-height: 550px;
+  padding: 20px;
+}
+
+/* .puestos {
+  background: rgb(219, 219, 226);
+  border: 2px solid rgba(33, 37, 41, 0.86);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.puestos:hover {
+  background: #59a0d7;
+  transform: scale(1.05);
+} */
+
+/* .puestos:hover h4 {
+  color: white;
+} */
