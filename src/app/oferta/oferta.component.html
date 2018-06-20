@@ -1,62 +1,64 @@
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <h3>{{oferta.nombre}}</h3>
-      <h4>{{oferta.empresa}}</h4>
+<section id="oferta">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h3>{{oferta.nombre}} - <span style="color: #59a0d7; font-weight: bold;">{{oferta.empresa}}</span></h3>
+      </div>
     </div>
-  </div>
 
-  <div class="row text-left">
-    <div class="col-1">
-      <p><i class="fas fa-industry"></i></p>
+    <div class="row text-left">
+      <div class="col-1">
+        <p><i class="fas fa-industry"></i></p>
+      </div>
+      <div class="col-11">
+        <p>{{oferta.categoria}}</p>
+      </div>
     </div>
-    <div class="col-11">
-      <p>{{oferta.categoria}}</p>
+    <div class="row text-left">
+      <div class="col-1">
+        <p><i class="far fa-money-bill-alt"></i></p>
+      </div>
+      <div class="col-11">
+        <p>{{oferta.salario}}</p>
+      </div>
     </div>
+    <div class="row text-left">
+      <div class="col-1">
+        <p><i class="far fa-clock"></i></p>
+      </div>
+      <div class="col-11">
+        <p>{{oferta.fecha}}</p>
+      </div>
+    </div>
+    <div class="row text-left">
+      <div class="col-1">
+        <p><i class="fas fa-graduation-cap"></i></p>
+      </div>
+      <div class="col-11">
+        <p>{{oferta.estudios_minimos}}</p>
+      </div>
+    </div>
+    <div class="row text-left">
+      <div class="col-1">
+        <p><i class="fas fa-briefcase"></i></p>
+      </div>
+      <div class="col-11">
+        <p>{{oferta.experiencia_minima}}</p>
+      </div>
+    </div>
+    <div class="row text-left">
+      <div class="col-1">
+        <p><i class="far fa-file-alt"></i></p>
+      </div>
+      <div class="col-11">
+        <p>{{oferta.descripcion}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center p-3">
+        <a href="" class="btn btn-primary" data-toggle="modal" data-target="#inscripcion">Deseo inscribirme en esta oferta</a>
+      </div>
+    </div>
+    <div class="text-center mt-3 volver"><a [routerLink]="['/puestos']"><i class="fas fa-2x fa-undo-alt"></i></a></div>
   </div>
-  <div class="row text-left">
-    <div class="col-1">
-      <p><i class="far fa-money-bill-alt"></i></p>
-    </div>
-    <div class="col-11">
-      <p>{{oferta.salario}}</p>
-    </div>
-  </div>
-  <div class="row text-left">
-    <div class="col-1">
-      <p><i class="far fa-clock"></i></p>
-    </div>
-    <div class="col-11">
-      <p>{{oferta.fecha}}</p>
-    </div>
-  </div>
-  <div class="row text-left">
-    <div class="col-1">
-      <p><i class="fas fa-graduation-cap"></i></p>
-    </div>
-    <div class="col-11">
-      <p>{{oferta.estudios_minimos}}</p>
-    </div>
-  </div>
-  <div class="row text-left">
-    <div class="col-1">
-      <p><i class="fas fa-briefcase"></i></p>
-    </div>
-    <div class="col-11">
-      <p>{{oferta.experiencia_minima}}</p>
-    </div>
-  </div>
-  <div class="row text-left">
-    <div class="col-1">
-      <p><i class="far fa-file-alt"></i></p>
-    </div>
-    <div class="col-11">
-      <p>{{oferta.descripcion}}</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12 text-center p-3">
-      <a href="" class="btn btn-primary" data-toggle="modal" data-target="#inscripcion">Deseo inscribirme en esta oferta</a>
-    </div>
-  </div>
-</div>
+</section>

@@ -35,6 +35,8 @@ import { DashboardPuestosComponent } from './dashboard-puestos/dashboard-puestos
 import { EmpresaComponent } from './empresa/empresa.component';
 import { PuestosEmpresaComponent } from './puestos-empresa/puestos-empresa.component';
 import { OfertaComponent } from './oferta/oferta.component';
+import { NotFoundComponent } from './not-found/not-found.component';
+import { MantenimientoComponent } from './mantenimiento/mantenimiento.component';
 
 
 
@@ -54,7 +56,9 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'empresa', component: EmpresaComponent },
   { path: 'puestos-empresa', component: PuestosEmpresaComponent },
-  { path: 'oferta', component: OfertaComponent }
+  { path: 'oferta', component: OfertaComponent },
+  { path: 'mantenimiento', component: MantenimientoComponent },
+  { path: '**', component: NotFoundComponent }
 ]
 
 @NgModule({
@@ -81,7 +85,9 @@ const routes: Routes = [
     DashboardPuestosComponent,
     EmpresaComponent,
     PuestosEmpresaComponent,
-    OfertaComponent
+    OfertaComponent,
+    NotFoundComponent,
+    MantenimientoComponent
   ],
   imports: [
     BrowserModule,

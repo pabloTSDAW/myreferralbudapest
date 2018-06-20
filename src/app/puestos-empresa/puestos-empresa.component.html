@@ -1,19 +1,22 @@
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <div class="card-deck">
-        <div class="card text-center" *ngFor="let puesto of puestos">
-          <div class="card-body">
-            <h5 class="card-title">{{puesto.nombre}}</h5>
-            <p class="card-text">{{puesto.categoria}}</p>
-            <p><i class="fas fa-map-marker-alt"></i> {{puesto.lugar}}</p>
-            <a [routerLink]="['/oferta']" class="btn btn-primary" (click)="seleccionarOferta(puesto)">Ver oferta</a>
-          </div>
-          <div class="card-footer text-muted">
-            <p><i class="far fa-clock"></i> {{puesto.fecha}}</p>
+<section id="puestos-empresa">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="card-deck">
+          <div class="card text-center" *ngFor="let puesto of puestos">
+            <div class="card-body">
+              <h5 class="card-title">{{puesto.nombre}}</h5>
+              <p class="card-text">{{puesto.categoria}}</p>
+              <p><i class="fas fa-map-marker-alt"></i> {{puesto.lugar}}</p>
+              <a [routerLink]="['/oferta']" class="btn btn-primary" (click)="seleccionarOferta(puesto)">Ver oferta</a>
+            </div>
+            <div class="card-footer text-muted">
+              <p><i class="far fa-clock"></i> {{puesto.fecha}}</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="text-center mt-3"><a [routerLink]="['/empresa']"><i class="fas fa-2x fa-undo-alt"></i></a></div>
   </div>
-</div>
+</section>

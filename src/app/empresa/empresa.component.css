@@ -1,3 +1,8 @@
+section#empresa{
+  background-image: url('../../assets/images/cover-empresas.png');
+  background-size: cover;
+}
+
 .container {
   min-height: 550px;
 }
@@ -14,5 +19,9 @@ img {
 @media (max-width: 768px){
   img {
     width: 75%;
+  }
+  section#empresa{
+    background-image: url('../../assets/images/cover-empresasMovil.png');
+    background-size: cover;
   }
 }

@@ -1,5 +1,5 @@
 .container-fluid {
-  background-image: url('../../assets/images/cover-bg-1.jpg');
+  background-image: url('../../assets/images/notFound.jpg');
   background-size: cover;
   min-height: 720px;
 }
@@ -21,7 +21,7 @@ h1, h3, i {
 }
 
 .form-control:focus {
-  border-color: #70c5c0;
+  border-color: #59a0d7;
 }
 
 .form-control, .btn {
@@ -60,7 +60,7 @@ h1, h3, i {
   height: 95px;
   border-radius: 50%;
   z-index: 9;
-  background: #70c5c0;
+  background: #59a0d7;
   padding: 15px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
@@ -72,7 +72,7 @@ h1, h3, i {
 .login-form .btn {
   font-size: 16px;
   font-weight: bold;
-  background: #70c5c0;
+  background: #59a0d7;
   border: none;
   margin-bottom: 20px;
 }
