@@ -1,6 +1,7 @@
 .container {
   min-height: 550px;
   padding: 20px;
+  margin-top: 10px;
 }
 
 .row {

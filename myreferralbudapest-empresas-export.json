@@ -1,0 +1,129 @@
+{
+  "empresas" : {
+    "BP" : {
+      "descripcion" : "BP plc, anteriormente British Petroleum, es una compañía de energía, dedicada principalmente al petróleo y al gas natural con sede en Londres, Reino Unido. Es una de las mayores compañías del mundo, la octava según la revista estadounidense Forbes,1​ y la tercera empresa privada más importante dedicada al petróleo y gas después de ExxonMobil y Royal Dutch Shell.",
+      "nombre" : "BP",
+      "sector" : "Industria"
+    },
+    "Blok N Mesh" : {
+      "descripcion" : "Blok N Mesh es el fabricante, proveedor e instalador líder en el Reino Unido de Cercas Temporales, Almacenamiento de Sitios, Barreras y Sistemas de Gestión de Tráfico en régimen de alquiler o compra. Con instalaciones de fabricación y distribución en Knowsley, mejoradas aún más por nuestros 18 depósitos en todo el país, ofrecemos un verdadero servicio nacional con soporte local, respaldado por excelentes existencias y entrega rápida.",
+      "nombre" : "Blok N Mesh",
+      "sector" : "Distribución"
+    },
+    "Bosch" : {
+      "descripcion" : "Robert Bosch GmbH o Bosch es una compañía alemana iniciada en 1886 por Robert Bosch. Cuenta con 264 centros de producción, 250 delegaciones comerciales y 261.300 empleados en todo el mundo. La facturación del 2006 de Bosch fue de 43.700 millones de euros,1​ según datos de la compañía.",
+      "nombre" : "Bosch",
+      "sector" : "Industria"
+    },
+    "British Telecom" : {
+      "descripcion" : "BT Group plc, marca comercial BT, es una empresa de servicios de telecomunicaciones multinacional británica, con sede en Londres, Reino Unido.\n\nEs una de las empresas de servicios de telecomunicaciones más grandes del mundo y opera en más de 170 países.1​ A través de su división BT Global Services es un proveedor mayor de servicios de telecomunicaciones a clientes corporativos y gubernamentales en todo el mundo. Su división BT Retail es uno de los mayores proveedores de telefonía, banda ancha y servicios de televisión de suscripción en el Reino Unido, con más de 18 millones de clientes.",
+      "nombre" : "British Telecom",
+      "sector" : "Telecomunicaciones"
+    },
+    "Celanese" : {
+      "descripcion" : "Celanese Corporation , también conocida como Hoechst Celanese , es una compañía global de tecnología y materiales especializados Fortune 500 con sede en Irving , Texas , Estados Unidos. La compañía es un productor líder de productos de acetilo , que son productos químicos intermedios para casi todas las principales industrias, y es el mayor productor mundial de monómero de acetato de vinilo (VAM).",
+      "nombre" : "Celanese",
+      "sector" : "Productos químicos"
+    },
+    "Citybank" : {
+      "descripcion" : "Citibank es la división de consumo de la empresa multinacional de servicios financieros Citigroup. Citibank fue fundado en 1812 con el nombre de City Bank of New York, para después cambiar de nombre y pasar a ser First National City Bank of New York1​.\n\nCitibank es un banco global con 3280 sucursales en 36 países.​ El mercado que se concentra en Estados Unidos es el más grande ya que contiene, aproximadamente, el 26% de las sucursales y genera más del 50% de los ingresos. Las 983 sucursales de Norte América están concentradas en áreas metropolitanas de gran importancia como Nueva York, Chicago, Los Ángeles, San Francisco, Washington, D.C., Miami, Boston, Houston y Dallas. Los mercados latinoamericanos generan el 25% de los ingresos, mientras que los asiáticos generan el 20% y Europa, África y el Medio Oriente el 4%.\n\nAdicionalmente a los servicios básicos de un banco tradicional, Citibank ofrece seguros, tarjetas de crédito, portafolios de inversión. Los servicios en línea se encuentran entre los más exitosos del mercado, teniendo cerca de 15 millones de usuarios.",
+      "nombre" : "Citibank",
+      "sector" : "Finanzas y seguros"
+    },
+    "Cloudpay" : {
+      "descripcion" : "Cloudpay ofrece la capacidad de gestionar nóminas a escala mundial, efectuar pagos, realizar análisis y satisfacer los requisitos de cumplimiento en una sola plataforma privada. La base SaaS les permite conectar sus operaciones mundiales de gestión de nóminas en una plataforma, lo que garantiza un servicio armonizado para todos sus equipos en todas sus sedes de actividad. Su solución exclusiva combina tecnología y personas, y permite procesar nóminas dentro de su sistema, utilizando su plantilla y cumpliendo con los SLA por encima de la media del sector.",
+      "nombre" : "Cloudpay",
+      "sector" : "Finanzas"
+    },
+    "Cognizant" : {
+      "descripcion" : "Cognizant Technology Solutions Corp es una multinacional americana que ofrece servicios a medida en Tecnologías de la Información, consultoría y externalización de procesos de negocio. Su sede central está ubicada en Teaneck, Nueva Jersey, Estados Unidos y está listada en el índice NASDAQ-100 y el S&P 500. Fundada originalmente en 1994 como una unidad de tecnología captiva de Dun & Bradstreet, Cognizant comenzó a dar servicio a clientes externos en 1996.",
+      "nombre" : "Cognizant",
+      "sector" : "Servicios y consultoría"
+    },
+    "Deloitte" : {
+      "descripcion" : "Deloitte Touche Tohmatsu Limited (llamada de forma abreviada Deloitte) es la firma privada número uno de servicios profesionales del mundo, por volumen de facturación (36.800 millones de dólares en 2016), una de las más importantes y prestigiosas del mundo y también una de las llamadas Cuatro Grandes Auditoras (Big Four auditors en inglés), junto a PricewaterhouseCoopers, Ernst & Young, y KPMG. Calificada en los últimos 4 años como el lugar número uno para lanzar una carrera por la revista BusinessWeek.",
+      "nombre" : "Deloitte",
+      "sector" : "Servicios profesionales"
+    },
+    "Diageo" : {
+      "descripcion" : "Diageo es la compañía líder mundial en el segmento de bebidas alcohólicas premium. Actualmente, y según el informe realizado por Impact en 2011, 8 de las 20 primeras marcas más vendidas del mundo son propiedad de Diageo: el vodka Smirnoff, el whisky Johnnie Walker, el ron Captain Morgan, la crema de licor Baileys, el whisky canadiense Crown Royal, el whisky escocés J&B y la ginebra Gordon's.\n\nDiageo comercializa sus marcas en más de 180 países y cotiza en las bolsas de Nueva York y Londres.\n\nA nivel mundial tiene 8 marcas consideradas globales, que disponen de un perfil de consumidor sólido generalizado y que representan la base del negocio a nivel mundial: Smirnoff, Johnnie Walker, Captain Morgan, Baileys, J&B, Don Julio así como la ginebra Tanqueray y cerveza Guinness.\n\nLa palabra Diageo viene de la palabra latín \"día\" que significa \"día\" y la palabra griega \"geo\" que significa \"mundo\" y busca transmitir que todos los días, en todas partes, la gente puede celebrar la vida con las marcas de la compañía.",
+      "nombre" : "Diageo",
+      "sector" : "Alimentación"
+    },
+    "IBM" : {
+      "descripcion" : "International Business Machines Corporation (IBM) (NYSE: IBM) es una reconocida empresa multinacional estadounidense de tecnología y consultoría con sede en Armonk, Nueva York. IBM fabrica y comercializa hardware y software para computadoras, y ofrece servicios de infraestructura, alojamiento de Internet, y consultoría en una amplia gama de áreas relacionadas con la informática, desde computadoras centrales hasta nanotecnología.",
+      "nombre" : "IBM",
+      "sector" : "Consultoría"
+    },
+    "Nokia" : {
+      "descripcion" : "Nokia Corporation es una empresa multinacional de comunicaciones y tecnología con sede en el distrito de Keilaniemi, en Espoo, Finlandia. Está formada por dos grupos de negocios: Nokia Networks (Redes de telecomunicaciones) y Nokia Technologies.\n\nAnteriormente, Nokia Corporation era una empresa orientada principalmente a la fabricación de teléfonos móviles, siendo líder mundial en este sector entre 1998 y 2011. Sin embargo, en sus últimos años como fabricante de teléfonos móviles, sufrió una disminución de la participación del mercado como resultado de la creciente utilización de los teléfonos inteligentes de otros proveedores. Como resultado, la cotización de sus acciones cayó desde un máximo de 40 dólares en 2007 a menos de 3 dólares en 2012. En febrero de 2011, Nokia Corporation estableció una alianza estratégica con Microsoft Corporation, como parte de la cual todos los teléfonos inteligentes Nokia Corporation incorporarían Windows Phone. Tras este acuerdo, Nokia se convirtió en el principal proveedor de smartphones con Windows Phone.",
+      "nombre" : "Nokia",
+      "sector" : "Telefonía"
+    },
+    "TATA" : {
+      "descripcion" : "El Grupo Tata es un conglomerado industrial indio fundado por Jamsetji Tata en 1868. En India, Tata es uno de los grupos económicos más respetados y antiguos. Su presencia se extiende a África, América, Asia y Europa.\n\nEl Grupo Tata está compuesto por 98 empresas que operan en siete sectores:\n\nComunicaciones y sistemas de información\nIngeniería\nMateriales\nServicios\nEnergía\nBienes de consumo\nQuímicos.",
+      "nombre" : "TATA",
+      "sector" : "Varios"
+    },
+    "Unicef" : {
+      "descripcion" : "El Fondo de las Naciones Unidas para la infancia o Unicef (United Nations International Children's Emergency Fund)'1​ es un programa de la Organización de las Naciones Unidas (ONU) con base en Nueva York y que provee ayuda humanitaria y de desarrollo a niños y madres en países en desarrollo. Es uno de los miembros y la comisión ejecutiva de la United Nations Development Group.2​\n\nOriginalmente fue creado en 1946 con el nombre de United Nations International Children's Emergency Fund (Unicef), en español: Fondo Internacional de Emergencia de las Naciones Unidas para la Infancia, para ayudar a los niños de Europa después de la Segunda Guerra Mundial. En 1953, Unicef se convierte en organismo permanente dentro del sistema de la ONU, encargado de ayudar a los niños y proteger sus derechos. Su nombre fue reducido al nombre actual, pero se mantuvo el acrónimo original.\n\nUnicef trabaja en más de 191 países y territorios a través de diferentes programas y Comités Nacionales. La base sobre la que guía su trabajo es la Convención sobre los Derechos del Niño y su labor está centrada en cinco esferas prioritarias de trabajo: supervivencia y desarrollo infantil, educación e igualdad de género, la infancia y el VIH/sida, protección infantil y promoción de políticas y alianzas.",
+      "nombre" : "Unicef",
+      "sector" : "Agencia especializada"
+    },
+    "vodafone" : {
+      "descripcion" : "Vodafone Group plc, inicialmente conocido como Racal Telecom, es un operador de telefonía móvil, telefonía fija y de ADSL, multinacional con sede central en Newbury, Berkshire, Reino Unido. Está presente en numerosos países, siendo el segundo operador de telecomunicaciones más grande del mundo en número de clientes y en beneficios (en ambos casos por detrás de China Mobile). A nivel global, Vodafone contaba en diciembre de 2017 con 439 millones de clientes.",
+      "nombre" : "Vodafone",
+      "sector" : "Telefonía"
+    }
+  },
+  "puestos" : {
+    "1529322074519" : {
+      "categoria" : "Informática y telecomunicaciones",
+      "descripcion" : "Programador informático con experiencia en java, HTML, PHP, C# y .NET. Se valorará experiencia en programación Android o multiplataforma como Xamari",
+      "empresa" : "Vodafone",
+      "estudios_minimos" : "Ingeniería Superior",
+      "experiencia_minima" : "Al menos 1 año",
+      "fecha" : "18/06/2018",
+      "id" : "1529322074519",
+      "lugar" : "La Zubia, Granada",
+      "nombre" : "Programador Informático",
+      "salario" : "18.000 € - 36.000 € Bruto/año"
+    },
+    "1529322074600" : {
+      "categoria" : "Comercial y ventas",
+      "descripcion" : "Empresa multinacional necesita 5 promotores, se requieren personas emprendedoras con ganas de aprender y buena presencia. Se ofrece estabilidad.",
+      "empresa" : "IBM",
+      "estudios_minimos" : "Educación Secundaria Obligatoria",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "18/06/2018",
+      "id" : "1529322074600",
+      "lugar" : "Budapest, Hungría",
+      "nombre" : "Comercial Junior",
+      "salario" : "12.000 € - 15.000 € Bruto/año"
+    },
+    "1529364016748" : {
+      "categoria" : "Consultoría",
+      "descripcion" : "Buscamos un joven dinámico para puesto estable. Imprescindible residir en Budapest.",
+      "empresa" : "Vodafone",
+      "estudios_minimos" : "Licenciatura",
+      "experiencia_minima" : "2 años",
+      "fecha" : "19/6/2018",
+      "id" : 1529364016748,
+      "lugar" : "Budapest, Hungría",
+      "nombre" : "Consultor Junior",
+      "salario" : "20.000 € 25.000 € Bruto/año"
+    },
+    "1529364230224" : {
+      "categoria" : "Diseño y artes gráficas",
+      "descripcion" : "Reforzamos el equipo de Marketing con 1 Diseñador - Maquetador Web. Se incorporará al Equipo de Desarrollo Web para trabajar con equipos de proyectos de programadores y diseñadores en un entorno de trabajo muy dinámico y productivo.",
+      "empresa" : "IBM",
+      "estudios_minimos" : "Formación profesional Grado Superior",
+      "experiencia_minima" : "1 año",
+      "fecha" : "19/6/2018",
+      "id" : 1529364230224,
+      "lugar" : "Budapest, Hungría",
+      "nombre" : "Diseñador - Maquetador Web",
+      "salario" : "No especificado"
+    }
+  }
+}

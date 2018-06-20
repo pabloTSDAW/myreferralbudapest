@@ -668,3 +668,7 @@ li.nav-item .btn-white {
     font-size: 1.3em;
   }
 }
+
+.navbar li a:hover {
+  color: #95e6ee !important;
+}
