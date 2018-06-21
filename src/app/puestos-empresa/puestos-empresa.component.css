@@ -15,7 +15,7 @@ section#puestos-empresa{
 }
 
 @media (max-width: 768px){
-  section#empresa{
+  section#puestos-empresa{
     background-image: url('../../assets/images/cover-empresasMovil.png');
     background-size: cover;
   }

@@ -125,6 +125,7 @@ p {
 .social li a:hover {
   color: #59a0d7;
   border-color: #59a0d7;
+  color: #95e6ee;
 }
 
 .btn-primary, .btn-outline-primary, .btn-secondary, .btn-outline-secondary, .btn-white, .btn-outline-white, .btn-success, .btn-outline-success, .btn-info, .btn-outline-info, .btn-warning, .btn-outline-warning, .btn-danger, .btn-outline-danger {

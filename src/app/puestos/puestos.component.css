@@ -1,0 +1,22 @@
+section#puestos{
+  background-image: url('../../assets/images/cover-empresas.png');
+  background-size: cover;
+}
+
+.container{
+  min-height: 550px;
+  padding: 20px;
+}
+
+.card-deck .card {
+  display: block;
+  flex-basis: 33.3%;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px){
+  section#puestos{
+    background-image: url('../../assets/images/cover-empresasMovil.png');
+    background-size: cover;
+  }
+}
