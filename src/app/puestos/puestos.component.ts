@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from '../firebase.service';
+declare var jquery: any;
+declare var $: any;
 
 @Component({
   selector: 'app-puestos',
@@ -10,16 +12,13 @@ export class PuestosComponent implements OnInit {
 
   puestos;
   puestosGeneral;
+  empresa;
   cont: number = 4;
   comprobar: boolean = false;
 
   constructor(private firebase: FirebaseService) { }
 
   ngOnInit() {
-    this.firebase.empresa$.subscribe(data => {
-      this.empresaNombre = data.nombre;
-    });
-
     this.peticionOfertas(this.cont);
 
     //SCROLL INFINITO

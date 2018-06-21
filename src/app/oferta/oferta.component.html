@@ -8,6 +8,14 @@
 
     <div class="row text-left">
       <div class="col-1">
+        <p><i class="fas fa-map-marker-alt"></i></p>
+      </div>
+      <div class="col-11">
+        <p>{{oferta.lugar}}</p>
+      </div>
+    </div>
+    <div class="row text-left">
+      <div class="col-1">
         <p><i class="fas fa-industry"></i></p>
       </div>
       <div class="col-11">
@@ -62,3 +70,49 @@
     <div class="text-center mt-3 volver"><a [routerLink]="['/puestos']"><i class="fas fa-2x fa-undo-alt"></i></a></div>
   </div>
 </section>
+
+<!-- Inscripcion -->
+
+<div class="modal fade" id="inscripcion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Añadir puesto</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+      </div>
+      <div class="modal-body text-center">
+        <form id="contactForm2" name="sentMessage" novalidate onsubmit="inscribirse()">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input class="form-control" id="name" type="text" placeholder="Nombre *" required data-validation-required-message="Por favor, escriba su nombre.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input class="form-control" id="email" type="email" placeholder="Email *" required data-validation-required-message="Por favor, escriba su email.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input class="form-control" id="phone" type="tel" placeholder="Teléfono">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea class="form-control" id="message" placeholder="Escribe tu mensaje *" required data-validation-required-message="Por favor, escriba su mensaje."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <button id="sendMessageButton" class="btn btn-primary text-uppercase" type="submit">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

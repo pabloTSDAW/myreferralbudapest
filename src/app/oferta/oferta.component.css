@@ -25,6 +25,11 @@ p, i {
   font-size: 1em;
 }
 
+input, textarea {
+  width: 80%;
+  padding: 1%;
+}
+
 @media (max-width: 768px) h3 {
   h3 {
     font-size: 1.8em !important;

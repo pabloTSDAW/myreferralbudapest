@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FirebaseService } from '../firebase.service';
+declare var jquery: any;
+declare var $: any;
 
 @Component({
   selector: 'app-oferta',
@@ -16,6 +18,10 @@ export class OfertaComponent implements OnInit {
     this.firebase.oferta$.subscribe(data => {
       this.oferta = data;
     });
+  }
+
+  inscribirse(){
+    $('#inscripcion').close();
   }
 
 }
