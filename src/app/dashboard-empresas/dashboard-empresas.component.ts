@@ -14,6 +14,10 @@ export class DashboardEmpresasComponent implements OnInit {
   nombreEmpresa: string;
   sectorEmpresa: string;
   descripcionEmpresa: string;
+
+  nuevo_nombreEmpresa: string;
+  nuevo_sectorEmpresa: string;
+  nuevo_descripcionEmpresa: string;
   empresaAEliminar;
 
   constructor(public firebase: FirebaseService) { }
@@ -35,11 +39,25 @@ export class DashboardEmpresasComponent implements OnInit {
   //Recibe como parámetro la empresa a eliminar
   obtenerEmpresa(empresa){
     this.empresaAEliminar = empresa;
+    $('input[name=nombre]').val(empresa.nombre);
+    $('input[name=sector]').val(empresa.sector);
+    $('textarea[name=descripcion]').val(empresa.descripcion);
   }
 
   //Elimina un registro de la base de datos
   eliminarDato(){
     this.firebase.removeEmpresa(this.empresaAEliminar);
+  }
+
+  //Actualiza los campos de una empresa
+  modificarEmpresa(){
+    this.eliminarDato();
+    let empresa = {nombre: this.nuevo_nombreEmpresa, sector: this.nuevo_sectorEmpresa, descripcion: this.nuevo_descripcionEmpresa}
+    this.firebase.newEmpresa(empresa);
+  }
+
+  confirmarUpdate(){
+    $('#confirmarUpdate').modal();
   }
 
 }

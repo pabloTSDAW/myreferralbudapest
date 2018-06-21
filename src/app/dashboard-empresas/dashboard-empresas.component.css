@@ -16,3 +16,7 @@ table.dataTable thead tr {
   animation-delay: 1s;
   animation-duration: 2s;
 }
+
+tr td a {
+  margin-bottom: 10px;
+}

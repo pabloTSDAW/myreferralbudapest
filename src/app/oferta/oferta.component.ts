@@ -20,7 +20,7 @@ export class OfertaComponent implements OnInit {
     });
   }
 
-  inscribirse(){
+  inscribirse() {
     $('#inscripcion').close();
   }
 

@@ -83,9 +83,9 @@
               </button>
       </div>
       <div class="modal-body text-center">
-        <form id="contactForm2" name="sentMessage" novalidate onsubmit="inscribirse()">
+        <form id="contactForm2" name="sentMessage" novalidate>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-12">
               <div class="form-group">
                 <input class="form-control" id="name" type="text" placeholder="Nombre *" required data-validation-required-message="Por favor, escriba su nombre.">
                 <p class="help-block text-danger"></p>
@@ -98,17 +98,22 @@
                 <input class="form-control" id="phone" type="tel" placeholder="Teléfono">
                 <p class="help-block text-danger"></p>
               </div>
-            </div>
-            <div class="col-md-6">
               <div class="form-group">
-                <textarea class="form-control" id="message" placeholder="Escribe tu mensaje *" required data-validation-required-message="Por favor, escriba su mensaje."></textarea>
+                <small class="text-muted">Subir curriculum en formato pdf o doc.</small>
+                <input class="form-control" id="curriculum" type="file">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-group">
+                <textarea rows="6" class="form-control" id="message" placeholder="Escribe tu mensaje *" required data-validation-required-message="Por favor, escriba su mensaje."></textarea>
                 <p class="help-block text-danger"></p>
               </div>
             </div>
             <div class="clearfix"></div>
-            <div class="col-lg-12 text-center">
+            <div class="col-12 text-center">
               <div id="success"></div>
-              <button id="sendMessageButton" class="btn btn-primary text-uppercase" type="submit">Enviar</button>
+              <button id="sendMessageButton" class="btn btn-primary text-uppercase" type="submit" data-dismiss="modal" aria-label="Close">Enviar</button>
             </div>
           </div>
         </form>

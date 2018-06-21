@@ -12,6 +12,7 @@ $(function() {
       var email = $("input#email").val();
       var phone = $("input#phone").val();
       var message = $("textarea#message").val();
+      var curriculum = $("input#curriculum").val();
       var firstName = name;
       //Comprueba que no haya espacios en blanco
       if (firstName.indexOf(' ') >= 0) {
@@ -26,7 +27,8 @@ $(function() {
           name: name,
           phone: phone,
           email: email,
-          message: message
+          message: message,
+          curriculum: curriculum
         },
         cache: false,
         success: function() {

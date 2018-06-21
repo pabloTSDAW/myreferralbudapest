@@ -21,13 +21,17 @@ svg, .fa-undo-alt:hover {
   color: rgba(33, 37, 41, 0.9);
 }
 
+.form-control {
+  display: initial;
+}
+
 p, i {
   font-size: 1em;
 }
 
 input, textarea {
   width: 80%;
-  padding: 1%;
+  padding: 1.5%;
 }
 
 @media (max-width: 768px) h3 {
