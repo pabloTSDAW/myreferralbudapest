@@ -3,6 +3,7 @@
     <div class="row">
       <div class="col-12">
         <h4 class="mb-4 text-center">Últimas ofertas</h4>
+        <h5 *ngIf="puestos.length == 0" class="text-center" style="color: #59a0d7;"> Actualmente no hay ninguna oferta disponible para esta empresa. Por favor, sigue atento a nuestras redes sociales y a la web para no perderte las futuras ofertas.</h5>
         <div class="card-deck">
           <div class="card text-center" *ngFor="let puesto of puestos">
             <div class="card-body">

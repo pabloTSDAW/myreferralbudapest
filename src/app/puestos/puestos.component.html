@@ -6,7 +6,7 @@
         <div class="card-deck">
           <div class="card text-center" *ngFor="let puesto of puestos">
             <div class="card-body">
-              <h5 class="card-title">{{puesto.nombre}}</h5>
+              <h5 class="card-title">{{puesto.nombre}} - <span style="color: #59a0d7;">{{puesto.empresa}}</span></h5>
               <p class="card-text">{{puesto.categoria}}</p>
               <p><i class="fas fa-map-marker-alt"></i> {{puesto.lugar}}</p>
               <a [routerLink]="['/oferta']" class="btn btn-primary" (click)="seleccionarOferta(puesto)">Ver oferta</a>
@@ -17,6 +17,16 @@
           </div>
         </div>
       </div>
+    </div>
+    <div id="fountainG">
+      <div id="fountainG_1" class="fountainG"></div>
+      <div id="fountainG_2" class="fountainG"></div>
+      <div id="fountainG_3" class="fountainG"></div>
+      <div id="fountainG_4" class="fountainG"></div>
+      <div id="fountainG_5" class="fountainG"></div>
+      <div id="fountainG_6" class="fountainG"></div>
+      <div id="fountainG_7" class="fountainG"></div>
+      <div id="fountainG_8" class="fountainG"></div>
     </div>
   </div>
 </section>
