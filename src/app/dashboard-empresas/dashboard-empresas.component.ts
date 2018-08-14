@@ -56,6 +56,7 @@ export class DashboardEmpresasComponent implements OnInit {
     this.firebase.newEmpresa(empresa);
   }
 
+  //modal confirmar update
   confirmarUpdate(){
     $('#confirmarUpdate').modal();
   }

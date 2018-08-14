@@ -1,7 +1,7 @@
 {
   "empresas" : {
     "BP" : {
-      "descripcion" : "BP plc, anteriormente British Petroleum, es una compañía de energía, dedicada principalmente al petróleo y al gas natural con sede en Londres, Reino Unido. Es una de las mayores compañías del mundo, la octava según la revista estadounidense Forbes,1​ y la tercera empresa privada más importante dedicada al petróleo y gas después de ExxonMobil y Royal Dutch Shell.",
+      "descripcion" : "BP plc, anteriormente British Petroleum, es una compañía de energía, dedicada principalmente al petróleo y al gas natural con sede en Londres, Reino Unido. Es una de las mayores compañías del mundo, la octava según la revista estadounidense Forbes,​ y la tercera empresa privada más importante dedicada al petróleo y gas después de ExxonMobil y Royal Dutch Shell.",
       "nombre" : "BP",
       "sector" : "Industria"
     },
@@ -29,11 +29,6 @@
       "descripcion" : "Citibank es la división de consumo de la empresa multinacional de servicios financieros Citigroup. Citibank fue fundado en 1812 con el nombre de City Bank of New York, para después cambiar de nombre y pasar a ser First National City Bank of New York1​.\n\nCitibank es un banco global con 3280 sucursales en 36 países.​ El mercado que se concentra en Estados Unidos es el más grande ya que contiene, aproximadamente, el 26% de las sucursales y genera más del 50% de los ingresos. Las 983 sucursales de Norte América están concentradas en áreas metropolitanas de gran importancia como Nueva York, Chicago, Los Ángeles, San Francisco, Washington, D.C., Miami, Boston, Houston y Dallas. Los mercados latinoamericanos generan el 25% de los ingresos, mientras que los asiáticos generan el 20% y Europa, África y el Medio Oriente el 4%.\n\nAdicionalmente a los servicios básicos de un banco tradicional, Citibank ofrece seguros, tarjetas de crédito, portafolios de inversión. Los servicios en línea se encuentran entre los más exitosos del mercado, teniendo cerca de 15 millones de usuarios.",
       "nombre" : "Citibank",
       "sector" : "Finanzas y seguros"
-    },
-    "Cloudpay" : {
-      "descripcion" : "Cloudpay ofrece la capacidad de gestionar nóminas a escala mundial, efectuar pagos, realizar análisis y satisfacer los requisitos de cumplimiento en una sola plataforma privada. La base SaaS les permite conectar sus operaciones mundiales de gestión de nóminas en una plataforma, lo que garantiza un servicio armonizado para todos sus equipos en todas sus sedes de actividad. Su solución exclusiva combina tecnología y personas, y permite procesar nóminas dentro de su sistema, utilizando su plantilla y cumpliendo con los SLA por encima de la media del sector.",
-      "nombre" : "Cloudpay",
-      "sector" : "Finanzas"
     },
     "Cognizant" : {
       "descripcion" : "Cognizant Technology Solutions Corp es una multinacional americana que ofrece servicios a medida en Tecnologías de la Información, consultoría y externalización de procesos de negocio. Su sede central está ubicada en Teaneck, Nueva Jersey, Estados Unidos y está listada en el índice NASDAQ-100 y el S&P 500. Fundada originalmente en 1994 como una unidad de tecnología captiva de Dun & Bradstreet, Cognizant comenzó a dar servicio a clientes externos en 1996.",
@@ -85,7 +80,7 @@
       "experiencia_minima" : "Al menos 1 año",
       "fecha" : "18/06/2018",
       "id" : "1529322074519",
-      "lugar" : "La Zubia, Granada",
+      "lugar" : "Budapest",
       "nombre" : "Programador Informático",
       "salario" : "18.000 € - 36.000 € Bruto/año"
     },
@@ -122,8 +117,224 @@
       "fecha" : "19/6/2018",
       "id" : 1529364230224,
       "lugar" : "Budapest, Hungría",
-      "nombre" : "Diseñador - Maquetador Web",
+      "nombre" : "Diseñador / Maquetador Web",
       "salario" : "No especificado"
+    },
+    "1529579324521" : {
+      "categoria" : "Informática",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "BP",
+      "estudios_minimos" : "Ingeniería Superior",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579324521,
+      "lugar" : "Budapest",
+      "nombre" : "Desarrollador/a Software",
+      "salario" : "18.000 €/año"
+    },
+    "1529579343932" : {
+      "categoria" : "Informática",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "BP",
+      "estudios_minimos" : "Ingeniería Superior",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579343932,
+      "lugar" : "Budapest",
+      "nombre" : "Analista programador",
+      "salario" : "18.000 €/año"
+    },
+    "1529579366181" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "BP",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579366181,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579378640" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Bosch",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579378640,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579393793" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "British Telecom",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579393793,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579399991" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Celanese",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579399991,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579420548" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Citybank",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579420548,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579429672" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Cloudpay",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579429672,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579440833" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Cognizant",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579440833,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579450561" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Deloitte",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579450561,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579460213" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Diageo",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579460213,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579470859" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "IBM",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579470859,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579476212" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Nokia",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579476212,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579482473" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "TATA",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579482473,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579487580" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Unicef",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579487580,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579492530" : {
+      "categoria" : "Marketing",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Vodafone",
+      "estudios_minimos" : "Grado",
+      "experiencia_minima" : "No requerida",
+      "fecha" : "21/6/2018",
+      "id" : 1529579492530,
+      "lugar" : "Budapest",
+      "nombre" : "Manager Marketing",
+      "salario" : "20.000 €/año"
+    },
+    "1529579517353" : {
+      "categoria" : "Informática",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Vodafone",
+      "estudios_minimos" : "Ciclo Superior",
+      "experiencia_minima" : "2 años",
+      "fecha" : "21/6/2018",
+      "id" : 1529579517353,
+      "lugar" : "Budapest",
+      "nombre" : "Analista programador",
+      "salario" : "33.000 €/año"
+    },
+    "1529579524580" : {
+      "categoria" : "Informática",
+      "descripcion" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id nulla nihil, officiis aspernatur, nemo cupiditate animi veritatis ipsam ipsum amet ducimus et molestiae eveniet mollitia, doloremque! Quas ipsa at, aperiam.\n",
+      "empresa" : "Deloitte",
+      "estudios_minimos" : "Ciclo Superior",
+      "experiencia_minima" : "2 años",
+      "fecha" : "21/6/2018",
+      "id" : 1529579524580,
+      "lugar" : "Budapest",
+      "nombre" : "Analista programador",
+      "salario" : "33.000 €/año"
     }
   }
 }

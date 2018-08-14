@@ -38,7 +38,14 @@ import { OfertaComponent } from './oferta/oferta.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { MantenimientoComponent } from './mantenimiento/mantenimiento.component';
 
-
+export const firebaseConfig = {
+  apiKey: "AIzaSyC9vYx5oTASyjW7crrTApFR3LbCp3uAr6o",
+  authDomain: "myreferralbudapest-empresas.firebaseapp.com",
+  databaseURL: "https://myreferralbudapest-empresas.firebaseio.com",
+  projectId: "myreferralbudapest-empresas",
+  storageBucket: "myreferralbudapest-empresas.appspot.com",
+  messagingSenderId: "488243195200"
+};
 
 const routes: Routes = [
   { path: '', component: InicioComponent },
